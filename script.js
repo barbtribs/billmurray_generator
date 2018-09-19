@@ -11,6 +11,5 @@ $(document).ready( function() {
       e.preventDefault();
       alert("Por favor, insira todos os valores");
     }
-
   });
 } );

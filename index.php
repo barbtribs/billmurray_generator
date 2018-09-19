@@ -3,12 +3,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Gerador de Imagens do Bill Murray</title>
   </head>
   <body>
-    <h1>Gerador de Imagens do Bill Murray</h1>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <form class="" method="post">
+      <h1>Gerador de Imagens do Bill Murray</h1>
       <input type="number" name="largura" value="<?php echo($_POST['largura']) ?>" placeholder="Largura" max="800">
       <input type="number" name="altura" value="<?php echo($_POST['altura']) ?>" placeholder="Altura" max="800">
       <select name="categoria">
