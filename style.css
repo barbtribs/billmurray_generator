@@ -1,5 +1,6 @@
 body{
   background-color: #b3c0d6;
+  font-family: "Open Sans, sans-serif";
 }
 
 img {
@@ -8,7 +9,6 @@ img {
 }
 
 h1 {
-font-family: Open Sans, sans-serif;
 text-align: center;
 font-size: 30px;
 }
@@ -17,5 +17,9 @@ form {
   display: block;
   margin: 0 auto;
   max-width: 600px;
+  text-align: center;
+}
+
+p {
   text-align: center;
 }
